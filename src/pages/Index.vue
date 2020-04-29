@@ -16,7 +16,7 @@ export default {
       { name: 'twitter:creator', content: '@pj_manning' },
       {
         name: 'twitter:title',
-        content: '$1B Fund for global COVID-19 relief.',
+        content: '$1B Fund for Global COVID-19 Relief',
       },
       {
         name: 'twitter:description',
@@ -31,7 +31,7 @@ export default {
       // facebook card https://developers.facebook.com/tools/debug/
       {
         property: 'og:title',
-        content: '$1B Fund for global COVID-19 relief.',
+        content: '$1B Fund for Global COVID-19 Relief',
       },
       { property: 'og:type', content: 'website' },
       {
