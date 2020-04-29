@@ -82,7 +82,7 @@
                 <img
                   class="h-8 w-auto sm:h-10"
                   src="/img/logos/workflow-mark-on-white.svg"
-                  alt=""
+                  alt
                 />
               </a>
               <div class="-mr-2 flex items-center md:hidden">
@@ -136,9 +136,8 @@
               <a
                 href="#"
                 class="inline-flex items-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue active:bg-gray-50 active:text-indigo-700 transition duration-150 ease-in-out"
+                >Share</a
               >
-                Log in
-              </a>
             </span>
           </div>
         </nav>
@@ -153,7 +152,7 @@
       Leaving: "duration-100 ease-in"
         From: "opacity-100 scale-100"
         To: "opacity-0 scale-95"
-    -->
+      -->
       <div
         class="absolute top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden"
       >
@@ -164,7 +163,7 @@
                 <img
                   class="h-8 w-auto"
                   src="/img/logos/workflow-mark-on-white.svg"
-                  alt=""
+                  alt
                 />
               </div>
               <div class="-mr-2">
@@ -214,9 +213,8 @@
               <a
                 href="#"
                 class="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100 hover:text-indigo-700 focus:outline-none focus:bg-gray-100 focus:text-indigo-700 transition duration-150 ease-in-out"
+                >Log in</a
               >
-                Log in
-              </a>
             </div>
           </div>
         </div>
@@ -245,17 +243,15 @@
               <a
                 href="#"
                 class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline-indigo transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
+                >Get started</a
               >
-                Get started
-              </a>
             </div>
             <div class="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
               <a
                 href="#"
                 class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-600 bg-white hover:text-indigo-500 focus:outline-none focus:shadow-outline-blue transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
+                >Live demo</a
               >
-                Live demo
-              </a>
             </div>
           </div>
         </div>
