@@ -25,7 +25,7 @@ export default {
       },
       {
         name: 'twitter:image',
-        content: '../assets/images/startsmall.png',
+        content: 'https://i.postimg.cc/jj9THSvy/startsmall.png',
       },
       // facebook card https://developers.facebook.com/tools/debug/
       {
@@ -35,7 +35,7 @@ export default {
       { property: 'og:type', content: 'website' },
       {
         property: 'og:image',
-        content: '../assets/images/startsmall.png',
+        content: 'https://i.postimg.cc/jj9THSvy/startsmall.png',
       },
       { property: 'og:url', content: 'https://startsmall.llc' },
       {
