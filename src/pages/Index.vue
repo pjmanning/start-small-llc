@@ -26,7 +26,7 @@ export default {
       {
         name: 'twitter:image',
         content:
-          'https://drive.google.com/file/d/1i14aflC71dBBiM9S4J0pyrLrOPgBQt8Y/view?usp=sharing',
+          'https://drive.google.com/file/d/1i14aflC71dBBiM9S4J0pyrLrOPgBQt8Y/preview',
       },
       // facebook card https://developers.facebook.com/tools/debug/
       {
@@ -37,7 +37,7 @@ export default {
       {
         property: 'og:image',
         content:
-          'https://drive.google.com/file/d/1i14aflC71dBBiM9S4J0pyrLrOPgBQt8Y/view?usp=sharing',
+          'https://drive.google.com/file/d/1i14aflC71dBBiM9S4J0pyrLrOPgBQt8Y/preview',
       },
       { property: 'og:url', content: 'https://startsmall.llc' },
       {
