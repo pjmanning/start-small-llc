@@ -8,7 +8,7 @@
 import HeroHeader from '../components/HeroHeader'
 export default {
   metaInfo: {
-    title: 'Hello, world!',
+    title: '#startsmall',
   },
   components: {
     HeroHeader,
