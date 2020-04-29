@@ -9,7 +9,8 @@
   "dependencies": {
     "@gridsome/plugin-google-analytics": "^0.1.0",
     "@tailwindcss/ui": "^0.2.2",
-    "gridsome": "^0.7.0"
+    "gridsome": "^0.7.0",
+    "gridsome-source-google-sheets": "^0.4.1"
   },
   "devDependencies": {
     "gridsome-plugin-tailwindcss": "^2.2.47"

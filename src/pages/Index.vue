@@ -1,12 +1,39 @@
 <template>
   <Layout>
     <HeroHeader />
+    <DonationList :sheetData="$page.allGoogleSheet.edges" />
+    <FAQList />
   </Layout>
 </template>
 
+<page-query>
+ query {
+    allGoogleSheet {
+      edges {
+        node {
+          Date
+          _Amount_
+          Category
+          Grantee
+          Link
+          Why_
+        }
+      }
+    }
+  }
+</page-query>
+
 <script>
 import HeroHeader from '../components/HeroHeader'
+import DonationList from '../components/DonationList'
+import FAQList from '../components/FAQList'
+
 export default {
+  components: {
+    HeroHeader,
+    DonationList,
+    FAQList,
+  },
   metaInfo: {
     title: '#startsmall',
     meta: [
@@ -45,9 +72,6 @@ export default {
       },
       // { property: 'fb:app_id', content: '416774685599230' },
     ],
-  },
-  components: {
-    HeroHeader,
   },
 }
 </script>
