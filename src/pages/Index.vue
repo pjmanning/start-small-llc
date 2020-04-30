@@ -1,8 +1,11 @@
 <template>
   <Layout>
     <HeroHeader />
-    <DonationList :sheetData="$page.allGoogleSheet.edges" />
-    <FAQList />
+    <HomeStats />
+    <DonationList id="list" :sheetData="$page.allGoogleSheet.edges" />
+    <FAQList id="faq" />
+    <HomeCTA id="cta" />
+    <TheFooter />
   </Layout>
 </template>
 
@@ -25,14 +28,20 @@
 
 <script>
 import HeroHeader from '../components/HeroHeader'
+import HomeStats from '../components/HomeStats'
 import DonationList from '../components/DonationList'
 import FAQList from '../components/FAQList'
+import HomeCTA from '../components/HomeCTA'
+import TheFooter from '../components/TheFooter'
 
 export default {
   components: {
     HeroHeader,
+    HomeStats,
     DonationList,
     FAQList,
+    HomeCTA,
+    TheFooter,
   },
   metaInfo: {
     title: '#startsmall',

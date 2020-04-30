@@ -1,12 +1,8 @@
 <template>
   <div id="app">
-    <TheHeader />
-
     <main>
       <slot />
     </main>
-
-    <TheFooter />
   </div>
 </template>
 

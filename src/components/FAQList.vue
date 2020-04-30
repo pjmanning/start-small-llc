@@ -8,7 +8,7 @@
         <a
           href="https://twitter.com/jack/status/1247616214769086465"
           target="_blank"
-          class="text-indigo-600 hover:text-indigo-900"
+          class="twitter-text"
           >@jack</a
         >'s thread
       </h2>
@@ -27,7 +27,7 @@
                   <svg
                     fill="currentColor"
                     viewBox="0 0 20 20"
-                    class="ml-2 w-6 h-6 text-indigo-600"
+                    class="ml-2 w-6 h-6 twitter-text"
                   >
                     <path
                       d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"
@@ -57,7 +57,7 @@
                   <svg
                     fill="currentColor"
                     viewBox="0 0 20 20"
-                    class="ml-2 w-6 h-6 text-indigo-600"
+                    class="ml-2 w-6 h-6 twitter-text"
                   >
                     <path
                       d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"
@@ -91,7 +91,7 @@
                 <a
                   href="https://twitter.com/hashtag/startsmall?src=hashtag_click"
                   target="_blank"
-                  class="text-indigo-600 hover:text-indigo-900 mx-1"
+                  class="twitter-text mx-1"
                   >#startsmall
                 </a>
                 a LLC?
@@ -102,7 +102,7 @@
                   <svg
                     fill="currentColor"
                     viewBox="0 0 20 20"
-                    class="ml-2 w-6 h-6 text-indigo-600"
+                    class="ml-2 w-6 h-6 twitter-text"
                   >
                     <path
                       d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"
@@ -137,7 +137,7 @@
                   <svg
                     fill="currentColor"
                     viewBox="0 0 20 20"
-                    class="ml-2 w-6 h-6 text-indigo-600"
+                    class="ml-2 w-6 h-6 twitter-text"
                   >
                     <path
                       d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"
@@ -170,7 +170,7 @@
                   <svg
                     fill="currentColor"
                     viewBox="0 0 20 20"
-                    class="ml-2 w-6 h-6 text-indigo-600"
+                    class="ml-2 w-6 h-6 twitter-text"
                   >
                     <path
                       d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"
@@ -202,7 +202,7 @@
                   <svg
                     fill="currentColor"
                     viewBox="0 0 20 20"
-                    class="ml-2 w-6 h-6 text-indigo-600"
+                    class="ml-2 w-6 h-6 twitter-text"
                   >
                     <path
                       d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z"

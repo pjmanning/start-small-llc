@@ -16,6 +16,10 @@ module.exports = {
       fontFamily: {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
       },
+      colors: {
+        'twitter-blue': '#1da1f2',
+        'twitter-blue-hover': '#1a91da',
+      },
     },
   },
   variants: {},

@@ -6,4 +6,21 @@
 
 @tailwind base;
 @tailwind components;
+
+.twitter {
+  @apply bg-twitter-blue;
+}
+
+.twitter:hover {
+  @apply bg-twitter-blue-hover;
+}
+
+.twitter-text {
+  @apply text-twitter-blue;
+}
+
+.twitter-text:hover {
+  @apply text-twitter-blue-hover;
+}
+
 @tailwind utilities;
