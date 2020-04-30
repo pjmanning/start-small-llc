@@ -36,14 +36,26 @@
                 v-for="item of sheetData"
                 :key="item.id"
                 :date="item.node.Date"
-                :amount="item.node._Amount_"
+                :amount="item.node.Amount"
                 :category="item.node.Category"
                 :grantee="item.node.Grantee"
                 :link="item.node.Link"
-                :why="item.node.Why_"
+                :why="item.node.Why"
               />
             </tbody>
           </table>
+          <ul>
+            <DonationListItem2
+              v-for="item of sheetData"
+              :key="item.id"
+              :date="item.node.Date"
+              :amount="item.node.Amount"
+              :category="item.node.Category"
+              :grantee="item.node.Grantee"
+              :link="item.node.Link"
+              :why="item.node.Why"
+            />
+          </ul>
         </div>
       </div>
     </div>
@@ -52,10 +64,12 @@
 
 <script>
 import DonationListItem from './DonationListItem'
+import DonationListItem2 from './DonationListItem2'
 
 export default {
   components: {
     DonationListItem,
+    DonationListItem2,
   },
   props: {
     sheetData: {

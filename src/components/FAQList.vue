@@ -77,7 +77,7 @@
                   <a
                     href="https://www.drawdown.org/solutions/health-and-education"
                     target="_blank"
-                    class="text-indigo-600 hover:text-indigo-900"
+                    class="text-blue-600 hover:text-blue-900"
                     >https://www.drawdown.org/solutions/health-and-education</a
                   >
                 </p>

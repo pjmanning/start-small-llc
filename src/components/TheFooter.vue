@@ -63,7 +63,7 @@
           <a
             href="https://pjmanning.dev"
             target="_blank"
-            class="text-indigo-600 hover:text-indigo-900"
+            class="text-blue-600 hover:text-blue-900"
             >PJ Manning</a
           >
         </p>

@@ -15,11 +15,11 @@
       edges {
         node {
           Date
-          _Amount_
+          Amount
           Category
           Grantee
           Link
-          Why_
+          Why
         }
       }
     }
