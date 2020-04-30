@@ -117,8 +117,19 @@
                 href="https://twitter.com/intent/tweet?text=Check%20out%20@jack%20's%20new%20fund%20for%20covid19%20relief,%20girl's%20health%20and%20education,%20and%20ubi%20https://startsmall.llc&hashtags=startsmall,ubi,girlshealth,girlseducation"
                 target="_blank"
                 class="inline-flex items-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-white twitter focus:outline-none focus:shadow-outline-twitter-blue transition duration-150 ease-in-out"
-                >Share</a
               >
+                Share
+                <span class="sr-only">Twitter</span>
+                <svg
+                  class="h-6 w-6 ml-2"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"
+                  />
+                </svg>
+              </a>
             </span>
           </div>
         </nav>
@@ -137,8 +148,9 @@
           <p
             class="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl"
           >
-            To fund global COVID-19 relief. After we disarm this pandemic, the
-            focus will shift to girl’s health and education, and UBI.
+            Square/Twitter CEO Jack Dorsey's public fund for global COVID-19
+            relief.<br />After the pandemic, the focus will shift to girl’s
+            health and education, and UBI.
           </p>
           <!-- <div class="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
             <div class="rounded-md shadow">
