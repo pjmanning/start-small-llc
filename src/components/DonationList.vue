@@ -13,7 +13,7 @@
           <ul>
             <DonationListItem
               v-for="item of sheetData"
-              class="bg-white even:bg-gray-100"
+              class="bg-white even:bg-gray-50"
               :key="item.id"
               :date="item.node.Date"
               :amount="item.node.Amount"
