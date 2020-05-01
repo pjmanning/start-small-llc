@@ -1,5 +1,5 @@
 <template>
-  <Layout>
+  <Layout class="bg-gray-50">
     <HeroHeader />
     <HomeStats :sheetData="$page.allGoogleSheet.edges" />
     <DonationList id="list" :sheetData="$page.allGoogleSheet.edges" />
