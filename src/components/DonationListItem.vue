@@ -15,7 +15,7 @@
             />
           </div>
           <div
-            class="min-w-0 flex-1 px-4 grid grid-cols-4 grid-rows-2 row-gap-0 sm:row-gap-2 md:grid-cols-12 md:grid-rows-1 items-center"
+            class="min-w-0 flex-1 px-1 md:px-4 grid grid-cols-4 row-gap-3 sm:row-gap-2 md:grid-cols-12 md:grid-rows-1 items-center"
           >
             <div class="col-span-3 md:col-span-4">
               <div class="text-sm leading-5 font-medium text-blue-600 truncate">
