@@ -17,7 +17,7 @@
           <div>
             <div>
               <dt
-                class="flex items-center text-lg leading-6 font-medium text-gray-900"
+                class="flex items-center justify-between sm:justify-start text-lg leading-6 font-medium text-gray-900"
               >
                 What's the primary objective of the fund?
                 <a
@@ -47,7 +47,7 @@
             </div>
             <div class="mt-12">
               <dt
-                class="flex items-center text-lg leading-6 font-medium text-gray-900"
+                class="flex items-center justify-between sm:justify-start text-lg leading-6 font-medium text-gray-900"
               >
                 Why UBI and girl’s health and education?
                 <a
@@ -85,16 +85,18 @@
             </div>
             <div class="mt-12">
               <dt
-                class="flex items-center text-lg leading-6 font-medium text-gray-900"
+                class="flex items-center justify-between sm:justify-start text-lg leading-6 font-medium text-gray-900"
               >
-                Why is
-                <a
-                  href="https://twitter.com/hashtag/startsmall?src=hashtag_click"
-                  target="_blank"
-                  class="twitter-text mx-1"
-                  >#startsmall
-                </a>
-                a LLC?
+                <div>
+                  Why is
+                  <a
+                    href="https://twitter.com/hashtag/startsmall?src=hashtag_click"
+                    target="_blank"
+                    class="twitter-text mx-1"
+                    >#startsmall
+                  </a>
+                  a LLC?
+                </div>
                 <a
                   href="https://twitter.com/jack/status/1247616216274894848"
                   target="_blank"
@@ -127,7 +129,7 @@
           <div class="mt-12 md:mt-0">
             <div>
               <dt
-                class="flex items-center text-lg leading-6 font-medium text-gray-900"
+                class="flex items-center justify-between sm:justify-start text-lg leading-6 font-medium text-gray-900"
               >
                 Why the transparency?
                 <a
@@ -160,7 +162,7 @@
             </div>
             <div class="mt-12">
               <dt
-                class="flex items-center text-lg leading-6 font-medium text-gray-900"
+                class="flex items-center justify-between sm:justify-start text-lg leading-6 font-medium text-gray-900"
               >
                 Why pull just from Square and not Twitter?
                 <a
@@ -192,7 +194,7 @@
             </div>
             <div class="mt-12">
               <dt
-                class="flex items-center text-lg leading-6 font-medium text-gray-900"
+                class="flex items-center justify-between sm:justify-start text-lg leading-6 font-medium text-gray-900"
               >
                 Why now?
                 <a
