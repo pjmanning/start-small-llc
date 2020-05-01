@@ -59,12 +59,13 @@
       </div>-->
       <div class="mt-0 mx-auto">
         <p class="text-center text-base leading-6 text-gray-400">
-          Made in Bali 🏄🏻‍♂️ by
+          Made in Indo 🇮🇩 by
           <a
             href="https://pjmanning.dev"
             target="_blank"
             class="text-blue-600 hover:text-blue-900"
-          >PJ Manning</a>
+            >PJ Manning</a
+          >
         </p>
       </div>
       <!-- <div class="coffee md:order-2">
@@ -85,7 +86,7 @@
 </template>
 
 <script>
-export default {};
+export default {}
 </script>
 
 <style scoped>
@@ -114,7 +115,7 @@ export default {};
   box-shadow: 0px 1px 2px rgba(190, 190, 190, 0.5) !important;
   -webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;
   margin: 0 auto !important;
-  font-family: "Lato", sans-serif !important;
+  font-family: 'Lato', sans-serif !important;
   -webkit-box-sizing: border-box !important;
   box-sizing: border-box !important;
   -o-transition: 0.3s all linear !important;
