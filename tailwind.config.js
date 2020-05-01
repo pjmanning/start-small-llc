@@ -23,7 +23,7 @@ module.exports = {
     },
   },
   variants: {
-    backgroundColor: ['even'],
+    backgroundColor: ['responsive', 'even', 'hover', 'focus'],
   },
   plugins: [
     require('@tailwindcss/ui'),
