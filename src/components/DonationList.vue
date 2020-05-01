@@ -5,7 +5,12 @@
         <div
           class="align-middle inline-block min-w-full shadow overflow-hidden sm:rounded-lg border-b border-gray-200"
         >
-          <table class="min-w-full">
+          <div class="bg-white px-4 py-5 border-b border-gray-200 sm:px-6">
+            <h3 class="text-lg leading-6 font-medium text-gray-900">
+              List of Grantees
+            </h3>
+          </div>
+          <!-- <table class="min-w-full">
             <thead>
               <tr>
                 <th
@@ -43,8 +48,8 @@
                 :why="item.node.Why"
               />
             </tbody>
-          </table>
-          <!-- <ul>
+          </table> -->
+          <ul>
             <DonationListItem2
               v-for="item of sheetData"
               :key="item.id"
@@ -55,7 +60,7 @@
               :link="item.node.Link"
               :why="item.node.Why"
             />
-          </ul> -->
+          </ul>
         </div>
       </div>
     </div>
