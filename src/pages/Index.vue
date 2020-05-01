@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <HeroHeader />
-    <HomeStats />
+    <HomeStats :sheetData="$page.allGoogleSheet.edges" />
     <DonationList id="list" :sheetData="$page.allGoogleSheet.edges" />
     <FAQList id="faq" />
     <HomeCTA id="cta" />
