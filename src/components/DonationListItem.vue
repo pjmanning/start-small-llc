@@ -1,5 +1,5 @@
 <template>
-  <li class="bg-white">
+  <li>
     <a
       :href="link"
       target="_blank"

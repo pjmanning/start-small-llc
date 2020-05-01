@@ -22,7 +22,9 @@ module.exports = {
       },
     },
   },
-  variants: {},
+  variants: {
+    backgroundColor: ['even'],
+  },
   plugins: [
     require('@tailwindcss/ui'),
     require('autoprefixer'),
