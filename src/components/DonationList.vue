@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-7xl mx-auto sm:px-6 sm:py-16 lg:px-8">
+  <div class="max-w-7xl mx-auto sm:px-6 sm:py-0 lg:px-8">
     <div class="flex flex-col">
       <div class="-my-2 py-2 overflow-x-auto sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8">
         <div
@@ -44,7 +44,7 @@
               />
             </tbody>
           </table>
-          <ul>
+          <!-- <ul>
             <DonationListItem2
               v-for="item of sheetData"
               :key="item.id"
@@ -55,7 +55,7 @@
               :link="item.node.Link"
               :why="item.node.Why"
             />
-          </ul>
+          </ul> -->
         </div>
       </div>
     </div>
