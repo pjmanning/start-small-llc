@@ -6,14 +6,12 @@
           class="align-middle inline-block min-w-full shadow overflow-hidden sm:rounded-lg border-b border-gray-200"
         >
           <div class="bg-blue-600 px-4 py-5 border-b border-gray-200 sm:px-6">
-            <h3 class="text-lg leading-6 font-medium text-white">
-              List of Grantees
-            </h3>
+            <h3 class="text-lg leading-6 font-medium text-white">List of Grantees</h3>
           </div>
           <ul>
             <DonationListItem
               v-for="item of sheetData"
-              class="bg-white even:bg-gray-50"
+              class="bg-white even:bg-gray-50 border-b border-solid border-gray-200"
               :key="item.id"
               :date="item.node.Date"
               :amount="item.node.Amount"
@@ -30,17 +28,17 @@
 </template>
 
 <script>
-import DonationListItem from './DonationListItem'
+import DonationListItem from "./DonationListItem";
 
 export default {
   components: {
-    DonationListItem,
+    DonationListItem
   },
   props: {
     sheetData: {
       type: Array,
-      required: true,
-    },
-  },
-}
+      required: true
+    }
+  }
+};
 </script>
