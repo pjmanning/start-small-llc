@@ -91,7 +91,7 @@ export default {
       },
       {
         name: "twitter:image",
-        content: "https://i.postimg.cc/jj9THSvy/startsmall.png"
+        content: "https://i.postimg.cc/ZK4vbZ7p/startsmallblue.png"
       },
       // facebook card https://developers.facebook.com/tools/debug/
       {
@@ -101,7 +101,7 @@ export default {
       { property: "og:type", content: "website" },
       {
         property: "og:image",
-        content: "https://i.postimg.cc/jj9THSvy/startsmall.png"
+        content: "https://i.postimg.cc/ZK4vbZ7p/startsmallblue.png"
       },
       { property: "og:url", content: "https://startsmall.llc" },
       {
