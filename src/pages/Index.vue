@@ -28,6 +28,7 @@
           Amount
           Category
           Grantee
+          Twitter
           Link
           Why
         }

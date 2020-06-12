@@ -72,6 +72,10 @@ export default {
       type: String,
       required: true
     },
+    twitter: {
+      type: String,
+      required: false
+    },
     link: {
       type: String,
       required: false
