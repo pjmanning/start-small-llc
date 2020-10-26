@@ -24,7 +24,7 @@
                         rel="noopener"
                         class="inline-flex items-center justify-center flex-grow px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out border border-transparent rounded-md twitter focus:outline-none focus:shadow-outline"
                     >
-                        Add Your Request to Our List
+                        Add Your Request
                     </a>
                 </div>
             </div>
