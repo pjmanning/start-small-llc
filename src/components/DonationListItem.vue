@@ -8,13 +8,13 @@
             <div class="flex items-center px-4 py-4 sm:px-6">
                 <div class="flex items-start flex-1 min-w-0">
                     <div class="flex-shrink-0 hidden md:flex">
-                        <img
+                        <!-- <img
                             class="w-6 h-6 rounded-full"
                             :src="
                                 `https://www.google.com/s2/favicons?domain=${link}`
                             "
                             :alt="grantee"
-                        />
+                        /> -->
                     </div>
                     <div
                         class="grid items-start flex-1 min-w-0 grid-cols-4 row-gap-3 px-1 md:px-4 sm:row-gap-2 md:grid-cols-12 md:grid-rows-1"
