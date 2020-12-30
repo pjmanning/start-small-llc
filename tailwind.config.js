@@ -1,16 +1,12 @@
-// postcss.config.js
-const purgecss = require('@fullhuman/postcss-purgecss')({
-    // Specify the paths to all of the template files in your project
-    content: ['./src/**/*.html', './src/**/*.vue']
-
-    // Include any special characters you're using in this regular expression
-    //  defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || []
-    //  defaultExtractor: content => content.match(/[\w-/.:]+(?<!:)/g) || []
-})
-
 const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
+    purge: [
+        './src/**/*.vue',
+        './src/**/*.js',
+        './src/**/*.md',
+        './src/**/*.html'
+    ],
     theme: {
         extend: {
             fontFamily: {
@@ -26,8 +22,8 @@ module.exports = {
         backgroundColor: ['responsive', 'even', 'hover', 'focus']
     },
     plugins: [
-        require('@tailwindcss/ui'),
-        require('autoprefixer'),
-        ...(process.env.NODE_ENV == 'production' ? [purgecss] : [])
+        // require('@tailwindcss/ui')
+        //     require('autoprefixer'),
+        //     ...(process.env.NODE_ENV == 'production' ? [purgecss] : [])
     ]
 }
