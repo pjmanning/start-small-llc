@@ -21,9 +21,5 @@ module.exports = {
     variants: {
         backgroundColor: ['responsive', 'even', 'hover', 'focus']
     },
-    plugins: [
-        // require('@tailwindcss/ui')
-        //     require('autoprefixer'),
-        //     ...(process.env.NODE_ENV == 'production' ? [purgecss] : [])
-    ]
+    plugins: []
 }

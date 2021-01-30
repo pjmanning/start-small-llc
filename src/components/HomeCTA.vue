@@ -17,7 +17,6 @@
             </h2>
             <div class="flex mt-8 md:flex-shrink-0 md:mt-0">
                 <div class="inline-flex flex-grow rounded-md shadow">
-                    <!-- href="https://twitter.com/intent/tweet?text=Use%20this%20format...%20We're%20Animali:%20a%20conservation%20platform%20for%20endangered%20species%20https://animali.life/%20@jack%20$yourcashtag&hashtags=startsmall" -->
                     <a
                         href="https://airtable.com/shrStvpjOsB9dWymU"
                         target="_blank"

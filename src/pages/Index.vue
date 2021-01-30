@@ -97,7 +97,7 @@ export default {
                 content:
                     "Jack Dorsey's $1B Square equity fund for global COVID-19 relief, UBI, and girl's health and education."
             }
-            // { property: 'fb:app_id', content: '416774685599230' },
+            // { property: 'fb:app_id', content: 'xxxxxx' },
         ]
     }
 }
