@@ -8,12 +8,12 @@
     },
     "dependencies": {
         "@gridsome/plugin-google-analytics": "^0.1.0",
-        "axios": "^0.19.2",
-        "gridsome": "^0.7.0",
-        "gridsome-source-google-sheets": "^0.4.1",
-        "@tailwindcss/postcss7-compat": "^2.0.2",
+        "@tailwindcss/postcss7-compat": "npm:@tailwindcss/postcss7-compat",
         "autoprefixer": "^9",
+        "axios": "^0.21.1",
+        "gridsome": "^0.7.0",
         "gridsome-plugin-tailwindcss": "^4.1.1",
+        "gridsome-source-google-sheets": "^0.4.1",
         "postcss": "^7",
         "tailwindcss": "npm:@tailwindcss/postcss7-compat"
     }
