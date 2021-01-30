@@ -38,7 +38,7 @@
                         <div class="md:col-span-2 md:col-start-4">
                             <div>
                                 <div
-                                    class="font-semibold leading-5 text-right text-gray-900 text-green-500 text-md"
+                                    class="font-semibold leading-5 text-right text-green-500 text-md"
                                 >
                                     ${{ amountNumber.toLocaleString() }}
                                 </div>
