@@ -38,10 +38,6 @@
   }
 </page-query>
 
-// query ($page: Int) { // allGoogleSheet(perPage: 10, page: $page) @paginate {
-// totalCount // pageInfo { // totalPages // currentPage // } // edges { // node
-{ // Date // Amount // Category // Grantee // Link // Why // } // } // } // }
-
 <script>
 import HeroHeader from '../components/HeroHeader'
 import HomeStats from '../components/HomeStats'
