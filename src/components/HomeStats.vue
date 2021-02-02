@@ -205,8 +205,8 @@ export default {
 
     async mounted() {
         try {
-            const price = await axios.get(process.env.GRIDSOME_IEX_URL)
-            this.stockPrice = price.data
+            const price = await axios.get(process.env.GRIDSOME_ALPHAVANTAGE_URL)
+            this.stockPrice = price.data['Global Quote']['05. price']
         } catch (error) {
             console.log(error)
         }
