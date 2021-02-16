@@ -269,7 +269,9 @@ export default {
         filteredSheetData() {
             if (this.filter === 'date') {
                 console.log('filter by date')
-                return this.sheetData
+                // Make new array
+                let filteredArray = [...this.sheetData]
+                return filteredArray.reverse()
             } else if (this.filter === 'amount') {
                 console.log('filter by amount')
                 // Make new array
