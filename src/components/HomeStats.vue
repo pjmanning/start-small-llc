@@ -81,7 +81,9 @@
                                                         class="flex items-center"
                                                     >
                                                         <p class="mr-4">x</p>
-                                                        <p>{{ stockPrice }}</p>
+                                                        <p>
+                                                            {{ stockPrice }}
+                                                        </p>
                                                         <p
                                                             class="block px-4 py-2 text-sm leading-5 text-gray-700 hover:bg-gray-100 hover:text-gray-900 focus:outline-none focus:bg-gray-100 focus:text-gray-900"
                                                         >
@@ -206,7 +208,7 @@ export default {
     async mounted() {
         try {
             const price = await axios.get(process.env.GRIDSOME_ALPHAVANTAGE_URL)
-            this.stockPrice = price.data['Global Quote']['05. price']
+            this.stockPrice = Number(price.data['Global Quote']['05. price'])
         } catch (error) {
             console.log(error)
         }
