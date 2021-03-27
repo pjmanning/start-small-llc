@@ -18,7 +18,7 @@
             <div class="flex mt-8 md:flex-shrink-0 md:mt-0">
                 <div class="inline-flex flex-grow rounded-md shadow">
                     <a
-                        href="https://airtable.com/shrStvpjOsB9dWymU"
+                        href="https://docs.google.com/forms/d/1kA7q_sI_RtY_wD3eqtLaAvumWTx9Ih2LdYf8uuqESMY/viewform?edit_requested=true"
                         target="_blank"
                         rel="noopener"
                         class="inline-flex items-center justify-center flex-grow px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out border border-transparent rounded-md twitter focus:outline-none focus:shadow-outline"
