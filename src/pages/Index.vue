@@ -10,7 +10,7 @@
         />
         <FAQList id="faq" />
         <HomeCTA id="cta" />
-        <SubmissionList />
+        <!-- <SubmissionList /> -->
         <TheFooter />
     </Layout>
 </template>
