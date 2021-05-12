@@ -14,7 +14,7 @@
         "gridsome": "^0.7.0",
         "gridsome-plugin-tailwindcss": "^4.1.1",
         "gridsome-source-google-sheets": "^0.4.1",
-        "postcss": "^7",
+        "postcss": "^8",
         "tailwindcss": "npm:@tailwindcss/postcss7-compat"
     }
 }
