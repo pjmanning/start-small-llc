@@ -4531,6 +4531,11 @@ graphql@^14.4.2:
   dependencies:
     iterall "^1.2.2"
 
+gridsome-plugin-plausible-analytics@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/gridsome-plugin-plausible-analytics/-/gridsome-plugin-plausible-analytics-1.0.0.tgz#251d21334d6ac12df8967724fc55a079ffec9395"
+  integrity sha512-KMEQzxy3jefHH8ZDPbKttsrrEt4uSebn+saHtRkZx9pXR7DJmge0uE6+ImzsBXdpNuOvMTa6XGZVrwm00VC/QQ==
+
 gridsome-plugin-tailwindcss@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/gridsome-plugin-tailwindcss/-/gridsome-plugin-tailwindcss-4.1.1.tgz#fd167f6f4ffec6c2400b5a3011200761b72f4ec4"

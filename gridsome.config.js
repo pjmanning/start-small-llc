@@ -39,6 +39,13 @@ module.exports = {
             }
         },
         {
+            use: 'gridsome-plugin-plausible-analytics',
+            options: {
+                dataDomain: 'startsmall.llc',
+                outboundLinkTracking: false
+            }
+        },
+        {
             use: 'gridsome-source-google-sheets',
             options: {
                 sheetId: process.env.GOOGLE_SHEET_ID,
