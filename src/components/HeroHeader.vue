@@ -152,10 +152,10 @@
                     <p
                         class="max-w-md mx-auto mt-3 text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl"
                     >
-                        Square/Twitter CEO Jack Dorsey's public fund for global
-                        COVID-19 relief.
-                        <br />After the pandemic, the focus will shift to girl’s
-                        health and education, and UBI.
+                        <a href="https://block.xyz/" target="_blank">Block</a>
+                        Head - Jack Dorsey's public fund for global COVID-19
+                        relief. <br />After the pandemic, the focus will shift
+                        to girl’s health and education, and UBI.
                     </p>
                     <!-- <div class="max-w-md mx-auto mt-5 sm:flex sm:justify-center md:mt-8">
             <div class="rounded-md shadow">
